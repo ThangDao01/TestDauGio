@@ -9,6 +9,55 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Title1" FontSize="100"/>
+            <TextBlock FontSize="15" TextWrapping="Wrap" Margin="100,10,10,0">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </TextBlock>
+            <StackPanel Margin="100,10,10,0">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="Green" Height="100" Width="150"/>
+                    <Rectangle Fill="Black" Height="100" Width="150"/>
+                    <Rectangle Fill="Red" Height="100" Width="150"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Vertical">
+            <TextBlock Text="Title2" FontSize="100"/>
+            <TextBlock FontSize="15" TextWrapping="Wrap" Margin="100,10,10,0">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </TextBlock>
+            <StackPanel Margin="100,10,10,0">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="Red" Height="100" Width="150"/>
+                    <Rectangle Fill="Black" Height="100" Width="150"/>
+                    <Rectangle Fill="Blue" Height="100" Width="150"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Vertical">
+            <TextBlock Text="Title3" FontSize="100"/>
+            <TextBlock FontSize="15" TextWrapping="Wrap" Margin="100,10,10,0">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </TextBlock>
+            <StackPanel Margin="100,10,10,0">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="Blue" Height="100" Width="150"/>
+                    <Rectangle Fill="Black" Height="100" Width="150"/>
+                    <Rectangle Fill="Yellow" Height="100" Width="150"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        
 
     </Grid>
 </Page>
